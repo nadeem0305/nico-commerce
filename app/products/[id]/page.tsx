@@ -1,6 +1,5 @@
 import { products } from "@/data"
 import { notFound } from "next/navigation"
-import ProductDetailsClient from "@/components/ProductDetailsClient"
 
 export default async function ProductPage({
   params,
@@ -19,9 +18,7 @@ export default async function ProductPage({
 
   return (
     <main className="min-h-screen bg-zinc-950 pt-24 pb-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        <ProductDetailsClient product={product} />
-      </div>
+      <div className="max-w-6xl mx-auto">product info</div>
     </main>
   )
 }

@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { ShoppingBag, MessageCircle } from "lucide-react" // or your preferred icons
+import { ShoppingBag, MessageCircle } from "lucide-react"
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
